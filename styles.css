@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap');
+
+body{
+    font-family: 'Electrolize', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: greenyellow;
+}
+
+.game{
+    padding: 4rem;
+    background-color: rgb(23, 242, 11);
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2.5em;
+}
+
+.btns button{
+    background-color: yellow;
+    padding: 1rem 2rem;
+}
